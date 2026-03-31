@@ -1,0 +1,11 @@
+user user1
+topic readwrite test/#
+topic read maison/temperature
+
+user sensor_node_1
+topic readwrite home/sensor1/#
+
+user dashboard
+topic read home/#
+
+topic deny $SYS/#
